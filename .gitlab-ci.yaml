@@ -1,0 +1,25 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  # Substitua os valores abaixo pelos específicos do seu projeto
+  MYSQL_ROOT_PASSWORD: "root"
+  MYSQL_DATABASE: "bluepill"
+  MYSQL_USER: "root"
+  MYSQL_PASSWORD: "root"
+
+  # Adicione outras variáveis necessárias para seu projeto
+
+build:
+  script:
+    - echo "Construindo o projeto"
+
+test:
+  script:
+    - echo "Executando testes"
+
+deploy:
+  script:
+    - echo "Implantando o projeto"
