@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "bluepill",
-    "host": "127.0.0.1",
+    "username": "sr",
+    "password": "medalert!1",
+    "database": "medalert",
+    "host": "http://bdmedalert.mysql.database.azure.com/",
     "dialect": "mysql"
   },
   "test": {
